@@ -6,7 +6,7 @@ be used by people to learn about application penetration
 testing techniques.
 
 > This repo is a readily available docker image for WebGoat 5.3
-> `docker run --name webgoat --rm -p 8080:8080 robertobarreda/webgoat-legacy`
+> `docker run --name webgoat --rm -p 8080:8080 ghcr.io/fib-gei-si/webgoat_legacy`
 
 Run webscarab using `openjdk-11-jre`:
 `/usr/lib/jvm/java-11-openjdk-amd64/bin/java -jar webscarab.jar`
