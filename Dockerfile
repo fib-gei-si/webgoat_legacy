@@ -1,4 +1,6 @@
-FROM openjdk:7-jre-alpine
+FROM eclipse-temurin:8-jre-alpine
+
+LABEL org.opencontainers.image.source=https://github.com/fib-gei-si/webgoat_legacy
 
 ENV WEBGOAT_URL https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/webgoat/WebGoat-OWASP_Standard-5.3_RC1.7z
 
